@@ -9,13 +9,13 @@ export default function Home() {
     <div className="flex flex-col items-center justify-between p-6 h-[calc(100vh-64px)] bg-background">
       <div className="w-full">
         <div className="flex justify-center mb-8">
-          <div className="bg-white rounded-lg p-4">
+          <div className="relative w-[300px] h-[100px] rounded-lg">
             <Image 
               src="/logo.png" 
               alt="WeAreClean Logo" 
-              width={300} 
-              height={100} 
+              fill
               priority 
+              className="object-contain"
             />
           </div>
         </div>
